@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import headerPopup from "./headerPopup";
+import HeaderPopup from "./headerPopup";
 
 function App() {
   return (
     <div className="App">
-      <headerPopup />
+      <HeaderPopup />
     </div>
   );
 }

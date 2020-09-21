@@ -1,18 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+// import ReactDOM from "react-dom";
+import "./headerPopup.css";
+import ClearIcon from "@material-ui/icons/Clear";
 
-function headerPopup() {
+function HeaderPopup() {
+  const [hidePopup, setHidePopup] = useState(false);
+
   return (
-    <div className="headerPopup">
+    <div className={`headerPopup ${hidePopup ? "hide" : ""}`}>
       <div className="dialogueBox">
-        <h3>Start Solving your challenge now </h3>
-        <p>
+        <span className="title">Start Solving your challenge now </span>
+        <span className="offer">
           | Enroll today and learn risk-free with our 30-day money-back
           guarantee.
-        </p>
+        </span>
       </div>
-      <div className="cross"></div>
+      <div
+        className="cross"
+        onClick={() => {
+          setHidePopup(true);
+        }}
+      >
+        <ClearIcon className="popupClearIcon" />
+      </div>
     </div>
   );
 }
 
-export default headerPopup;
+export default HeaderPopup;
