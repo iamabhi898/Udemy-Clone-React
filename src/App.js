@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import headerPopup from "./headerPopup";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome, Its Udemy Clone Bitch !</h1>
+      <headerPopup />
     </div>
   );
 }
