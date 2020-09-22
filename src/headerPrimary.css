@@ -1,0 +1,79 @@
+.headerPrimary {
+  color: #3c3b37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0px 10px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+.headerPrimary .logo {
+  height: 32px;
+  width: 110px;
+}
+
+.headerPrimary .udemyLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerPrimary .part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .part * {
+  margin: 0px 8px;
+}
+
+.headerPrimary .avatar {
+  height: 2.4rem;
+  width: 2.4rem;
+  cursor: pointer;
+}
+
+.headerPrimary .mid {
+  width: 45%;
+  position: relative;
+}
+
+.headerPrimary .searchBar {
+  border-radius: 50px;
+  border: 1px #64635e solid;
+  font-size: 0.9rem;
+  height: 45px;
+  width: 100%;
+  padding-left: 8%;
+}
+
+.headerPrimary .searchIcon {
+  height: 48px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .icon {
+  color: #73726c;
+  cursor: pointer;
+}
+
+.headerPrimary .icon:hover {
+  color: #0f7c90;
+}
+
+.headerPrimary span {
+  cursor: pointer;
+}
+
+.headerPrimary span:hover {
+  color: #0f7c90;
+}

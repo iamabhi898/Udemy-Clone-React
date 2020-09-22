@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import ReactDOM from "react-dom";
 import "./headerPopup.css";
 import ClearIcon from "@material-ui/icons/Clear";
 
