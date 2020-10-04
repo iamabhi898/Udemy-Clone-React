@@ -1,0 +1,109 @@
+.headerPrimary {
+  color: #3c3b37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0px 10px;
+  font-size: 14px;
+  letter-spacing: normal;
+  box-shadow: 0px 1px 6px rgb(199, 198, 198);
+}
+
+.headerPrimary .logo {
+  height: 32px;
+  width: 110px;
+}
+
+.headerPrimary .udemyLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerPrimary .part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .part * {
+  margin: 0px 8px;
+}
+
+.headerPrimary .mid {
+  width: 55%;
+  position: relative;
+}
+
+.headerPrimary .searchBar {
+  border-radius: 50px;
+  border: 1px #64635e solid;
+  font-size: 0.9rem;
+  height: 45px;
+  width: 100%;
+  padding-left: 8%;
+}
+
+.headerPrimary .searchIcon {
+  height: 48px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPrimary .button {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid;
+  height: 36px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerPrimary .login {
+  background-color: white;
+  color: #0f7c90;
+  border-color: #0f7c90;
+}
+
+.headerPrimary .login:hover {
+  color: #054f5c;
+  border-color: #054f5c;
+}
+
+.headerPrimary .signup {
+  background-color: #0f7c90;
+  color: white;
+  border-color: #0f7c90;
+}
+
+.headerPrimary .signup:hover {
+  background-color: #054f5c;
+  border-color: #054f5c;
+}
+
+.headerPrimary .icon {
+  color: #73726c;
+  cursor: pointer;
+}
+
+.headerPrimary .icon:hover {
+  color: #0f7c90;
+}
+
+.headerPrimary span {
+  cursor: pointer;
+}
+
+.headerPrimary span:hover {
+  color: #0f7c90;
+}

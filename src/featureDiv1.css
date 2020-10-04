@@ -1,0 +1,7 @@
+.featureDiv1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
