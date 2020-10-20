@@ -1,7 +1,5 @@
 import React from "react";
 import "./headerPrimary.css";
-import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
-import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
@@ -29,21 +27,11 @@ function HeaderPrimary() {
         <div className="teachDiv">
           <span className="teach">Teach on Udemy</span>
         </div>
-        <div className="myCoursesDiv">
-          <span className="myCourses">My courses</span>
-        </div>
-        <div className="wishlistDiv">
-          <FavoriteBorderOutlinedIcon className="icon" />
-        </div>
         <div className="cartDiv">
           <ShoppingCartOutlinedIcon className="icon" />
         </div>
-        <div className="notificationDiv">
-          <NotificationsNoneOutlinedIcon className="icon" />
-        </div>
-        <div className="avatarDiv">
-          <img src="..//avatar.jpg" className="avatar" alt="avatar"></img>
-        </div>
+        <div className="login button">Log In</div>
+        <div className="signup button">Sign up</div>
       </div>
     </div>
   );
