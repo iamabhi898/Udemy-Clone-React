@@ -1,5 +1,5 @@
 import React from "react";
-import "./headerPrimary.css";
+import "../../components/header/headerPrimary.css";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 

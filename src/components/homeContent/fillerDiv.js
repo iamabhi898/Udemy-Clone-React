@@ -1,5 +1,5 @@
 import React from "react";
-import "./fillerDiv.css";
+import "../../components/homeContent/fillerDiv.css";
 
 function FillerDiv() {
   return (

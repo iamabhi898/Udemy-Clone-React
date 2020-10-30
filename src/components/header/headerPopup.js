@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./headerPopup.css";
+import "../../components/header/headerPopup.css";
 import ClearIcon from "@material-ui/icons/Clear";
 
 function HeaderPopup() {

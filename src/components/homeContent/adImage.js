@@ -1,5 +1,5 @@
 import React from "react";
-import "./adImage.css";
+import "../../components/homeContent/adImage.css";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
 function AdImage() {

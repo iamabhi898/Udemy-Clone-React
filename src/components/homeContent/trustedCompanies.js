@@ -1,5 +1,5 @@
 import React from "react";
-import "./trustedCompanies.css";
+import "../../components/homeContent/trustedCompanies.css";
 
 function TrustedCompanies() {
   return (

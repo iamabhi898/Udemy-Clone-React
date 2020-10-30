@@ -1,5 +1,5 @@
 import React from "react";
-import "./becomeInstructor.css";
+import "../../components/homeContent/becomeInstructor.css";
 
 function BecomeInstructor() {
   return (

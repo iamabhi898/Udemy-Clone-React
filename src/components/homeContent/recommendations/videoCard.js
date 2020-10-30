@@ -1,7 +1,7 @@
 import React from "react";
 import "./videoCard.css";
 import StarIcon from "@material-ui/icons/Star";
-import StarBorderIcon from "@material-ui/icons/StarBorder";
+// import StarBorderIcon from "@material-ui/icons/StarBorder";
 import StarHalfIcon from "@material-ui/icons/StarHalf";
 
 function VideoCard(props) {
